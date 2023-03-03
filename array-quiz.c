@@ -75,7 +75,31 @@ int main() {
         // Get the user's response
         printf("Enter your response 0,1,2,3 (A is 0, B is 1, C is 2, and D is 3): ");
         
-        scanf("%d", &response);
+        // to get user input- case insensitive
+        char userInput[2];
+
+   printf("Enter a letter (a, b, c, or d): ");
+   scanf("%1s", userInput);
+
+   if (strcasecmp(userInput, "a") == 0) {
+      response = 0;
+      printf("You entered 'a'.\n");
+   } else if (strcasecmp(userInput, "b") == 0) {
+      response = 1;
+      printf("You entered 'b'.\n");
+   } else if (strcasecmp(userInput, "c") == 0) {
+      response = 2;
+      printf("You entered 'c'.\n");
+   } else if (strcasecmp(userInput, "d") == 0) {
+      response = 3;
+      printf("You entered 'd'.\n");
+   } else {
+      response = 5;
+      printf("You did not enter a valid letter.\n");
+   }
+        
+        
+        //scanf("%d", &response);
         
         // Check if the user's response is correct
         if (response == questions[i].correct_choice) {
