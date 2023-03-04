@@ -73,7 +73,7 @@ int main() {
         display_question(questions[i]);
         
         // Get the user's response
-        printf("Enter your response 0,1,2,3 (A is 0, B is 1, C is 2, and D is 3): ");
+        printf("Enter your response (A, B, C and D): ");
         
         // to get user input- case insensitive
         char userInput[2];
@@ -107,7 +107,6 @@ int main() {
             score++;
         } else {
             printf("Incorrect.\n");
-            score++;
         }
     }
     
