@@ -56,4 +56,7 @@ Replace Quiz.txt with the name of the text document that contains your quiz ques
 ## Akintomide Ayodele Akeem
 ## Akinrinlola Ayomiposi Isaiah
 ## Ajibola Temitope A
+## Omoniyi Kayode Olamilekan
+## Imran shuaib Obasekore
 ## Samuel Oluwabukunmi Ajibade
+## Ajewole Ayodeji John
